@@ -15,6 +15,8 @@
 		040FB6ED242DC11600DE053C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040FB6EB242DC11600DE053C /* LaunchScreen.storyboard */; };
 		040FB6F5242DC2D400DE053C /* 1801-fireworks.json in Resources */ = {isa = PBXBuildFile; fileRef = 040FB6F4242DC2D400DE053C /* 1801-fireworks.json */; };
 		040FB6F7242DCB3D00DE053C /* 94-soda-loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 040FB6F6242DCB3D00DE053C /* 94-soda-loader.json */; };
+		040FB6F9242DD6C200DE053C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FB6F8242DD6C200DE053C /* SecondViewController.swift */; };
+		040FB6FB242DE33F00DE053C /* 4340-pew-pew.json in Resources */ = {isa = PBXBuildFile; fileRef = 040FB6FA242DE33F00DE053C /* 4340-pew-pew.json */; };
 		F1900A8ACD5E16AECA4685ED /* Pods_Lottie_animation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C393AF36603818E923B52B /* Pods_Lottie_animation.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		040FB6EE242DC11600DE053C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040FB6F4242DC2D400DE053C /* 1801-fireworks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1801-fireworks.json"; sourceTree = "<group>"; };
 		040FB6F6242DCB3D00DE053C /* 94-soda-loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "94-soda-loader.json"; sourceTree = "<group>"; };
+		040FB6F8242DD6C200DE053C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		040FB6FA242DE33F00DE053C /* 4340-pew-pew.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "4340-pew-pew.json"; sourceTree = "<group>"; };
 		336B23FA204C5ABE69E5EDBF /* Pods-Lottie_animation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie_animation.debug.xcconfig"; path = "Target Support Files/Pods-Lottie_animation/Pods-Lottie_animation.debug.xcconfig"; sourceTree = "<group>"; };
 		C7C393AF36603818E923B52B /* Pods_Lottie_animation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie_animation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B4C0DE55009B83AEF5735A /* Pods-Lottie_animation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie_animation.release.xcconfig"; path = "Target Support Files/Pods-Lottie_animation/Pods-Lottie_animation.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				040FB6F6242DCB3D00DE053C /* 94-soda-loader.json */,
+				040FB6FA242DE33F00DE053C /* 4340-pew-pew.json */,
 				040FB6F4242DC2D400DE053C /* 1801-fireworks.json */,
 				040FB6E0242DC11500DE053C /* AppDelegate.swift */,
 				040FB6E2242DC11500DE053C /* SceneDelegate.swift */,
@@ -76,6 +81,7 @@
 				040FB6E9242DC11600DE053C /* Assets.xcassets */,
 				040FB6EB242DC11600DE053C /* LaunchScreen.storyboard */,
 				040FB6EE242DC11600DE053C /* Info.plist */,
+				040FB6F8242DD6C200DE053C /* SecondViewController.swift */,
 			);
 			path = Lottie_animation;
 			sourceTree = "<group>";
@@ -161,6 +167,7 @@
 				040FB6EA242DC11600DE053C /* Assets.xcassets in Resources */,
 				040FB6F5242DC2D400DE053C /* 1801-fireworks.json in Resources */,
 				040FB6F7242DCB3D00DE053C /* 94-soda-loader.json in Resources */,
+				040FB6FB242DE33F00DE053C /* 4340-pew-pew.json in Resources */,
 				040FB6E8242DC11500DE053C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040FB6F9242DD6C200DE053C /* SecondViewController.swift in Sources */,
 				040FB6E5242DC11500DE053C /* ViewController.swift in Sources */,
 				040FB6E1242DC11500DE053C /* AppDelegate.swift in Sources */,
 				040FB6E3242DC11500DE053C /* SceneDelegate.swift in Sources */,

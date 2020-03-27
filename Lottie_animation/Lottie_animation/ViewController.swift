@@ -30,6 +30,12 @@ class ViewController: UIViewController {
         self.startAnimation(animation: "94-soda-loader")
     }
     @IBAction func sayHi(_ sender: UIButton) {
-        print("Hi")
+        let animationView = AnimationView(name: "4340-pew-pew")
+        animationView.frame = self.view.frame
+        animationView.contentMode = .scaleAspectFill
+        animationView.isUserInteractionEnabled = false
+        view.addSubview(animationView)
+        animationView.play()
     }
+    
 }
